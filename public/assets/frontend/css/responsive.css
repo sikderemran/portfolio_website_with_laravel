@@ -1,0 +1,57 @@
+@media screen and (min-width: 0px) and (max-width: 900px){
+	.col-10,
+	.col-20,
+	.col-25,
+	.col-30,
+	.col-33,
+	.col-40,
+	.col-50,
+	.col-60,
+	.col-70,
+	.col-80,
+	.col-90,
+	.col-100
+	{
+		
+		float: none;
+		width: 100%;
+	}
+	.toggle{
+		display: block;
+		color: #E91E63;
+	}
+	.logo{
+		float: left;
+	}
+	ul{
+		margin-top: 20px;
+		width: 100%;
+		display: none;
+		background: #000;
+		opacity: .8;
+		border-radius: 5px;
+		padding-top: 10px;
+		
+	}
+	.show{
+		display: block;
+	}
+	#nav li{
+		display: block;
+		float:none;
+		text-align: center;
+	}
+	#nav li a{
+		line-height: 30px;
+	}
+	.about_image img{
+		height: auto;
+	}
+	#contact .email{
+		margin: 15px;
+	}
+	.email input{
+		font-size: 10px;
+		padding: 15px 0px;
+	}
+}
